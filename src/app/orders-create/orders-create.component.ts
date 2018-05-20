@@ -15,7 +15,7 @@ export class OrdersCreateComponent implements OnInit {
     public crust: string[];
     public sizes: string[];
 
-    public selectedToppings: [] = [];
+    public selectedToppings: string[] = [];
 
     public formGroup: FormGroup = new FormGroup({
 
@@ -39,7 +39,6 @@ export class OrdersCreateComponent implements OnInit {
     public constructor(public pizzasService: PizzasService,
                        private toastr: ToastrService,
                        private router: Router) {
-
 
     }
 
