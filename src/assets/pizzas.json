@@ -1,0 +1,19 @@
+{
+    "sizes": [
+        "small",
+        "medium",
+        "large"
+    ],
+    "crust": [
+        "original",
+        "pan",
+        "thin"
+    ],
+    "toppings": [
+        "cheese",
+        "pepperoni",
+        "olives",
+        "peppers",
+        "sausage"
+    ]
+}

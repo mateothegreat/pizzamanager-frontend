@@ -28,6 +28,8 @@ import { OrdersComponent } from './orders/orders.component';
 import { PizzasComponent } from './pizzas/pizzas.component';
 import { OrdersCreateComponent } from './orders-create/orders-create.component';
 import { PizzasCreateComponent } from './pizzas-create/pizzas-create.component';
+import { PizzasService } from './pizzas/pizzas.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
 
@@ -60,7 +62,7 @@ import { PizzasCreateComponent } from './pizzas-create/pizzas-create.component';
         BrowserAnimationsModule,
         MaterialModule,
         ReactiveFormsModule,
-
+        HttpClientModule,
         NgxChartsModule,
         NgxDatatableModule,
         NgProgressModule,
@@ -133,6 +135,7 @@ import { PizzasCreateComponent } from './pizzas-create/pizzas-create.component';
         AppSidebarLeftService,
         AppPageHeaderService,
 
+        PizzasService,
         SessionService
 
     ],
